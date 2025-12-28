@@ -72,12 +72,10 @@ database - Used for SEO analysis or site audits
 - External domains are ignored
 - Page limits are enforced safely under concurrency
 
-Not implemented yet: - `robots.txt` support - Crawl depth limits
-
 ---
 
 ## Running Tests
 
 ```bash
-pnpm test
+pnpm run test
 ```
