@@ -187,7 +187,7 @@ export class ConcurrentCrawler {
     const html = await this.getHTML(currentURL);
     if (!html) return;
 
-    // ✅ store extracted page data
+    // store extracted page data
     this.pages[normalizedURL] = extractPageData(html, currentURL);
 
     const urls = getURLsFromHTML(html, this.baseURL);
